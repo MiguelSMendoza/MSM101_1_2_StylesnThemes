@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CodeFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CodeFont.Red">
+        <item name="android:textColor">@color/stateful_color</item>
+    </style>
+
+    <style name="CodeFont.Red.Big">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Theme.CustomTheme" parent="android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+</resources>

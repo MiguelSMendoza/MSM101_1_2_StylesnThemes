@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/logoDescription"
+        android:src="@drawable/netrunners" />
+
+    <TextView
+        style="@style/CodeFont"
+        android:text="@string/hello" />
+    
+    <EditText
+        style="@style/CodeFont.Red"
+        android:text="Recurso de Color 'Stateful'" />
+    
+    <EditText
+        style="@style/CodeFont"
+        android:text="Recurso de Color NO 'Stateful'" />
+
+</LinearLayout>
